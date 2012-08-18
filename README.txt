@@ -1,5 +1,8 @@
 Wall Generator Source
 
+Wall Generator is a tool for generating wall art files for DungeonCraft, a modern open-source version of Forgotten Realms Unlimited Adentures by SSI.
+
+
 Wall Generator is licensed under the Simplified BSD License.  Please see the /etc/licenses/wallgen-license.txt file for more details.
 
 Wall Generator is build using Apache Maven 3.  Apache Maven 2 should also build the software correctly.
