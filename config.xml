@@ -1,0 +1,658 @@
+<wallGeneratorConfig>
+    <outputFileTypes>
+        <outputFileType type="BMP" enabled="true" supportsTransparency="false" />
+        <outputFileType type="PNG" enabled="true" supportsTransparency="true" />
+        <outputFileType type="GIF" enabled="false" supportsTransparency="true" />
+    </outputFileTypes>
+    <configs>
+        <config resolution="640x480" sortOrder="1">
+            <wallSizes>
+                <wallSize type="CloseFront" height="134" width="112" />
+                <wallSize type="CloseFrontSide" height="134" width="32" />
+                <wallSize type="NearFront" height="57" width="48" />
+                <wallSize type="NearFrontSide" height="57" width="16" />
+                <wallSize type="FarFront" height="19" width="16" />
+                <wallSize type="CloseSide" height="211" width="32" />
+                <wallSize type="NearSide" height="134" width="32" />
+                <wallSize type="FarSide" height="58" width="16" />
+            </wallSizes>
+            <transforms>
+                <transform type="FarLeft">
+                    0.0, 0.0, 47.0, 0.0, 47.0, 56.0, 0.0, 56.0,
+                    0.0, 0.0, 16.0, 19.0, 16.0, 38.0, 0.0, 56.0
+                </transform>
+                <transform type="FarRight">
+                    0.0, 0.0, 47.0, 0.0, 47.0, 56.0, 0.0, 56.0,
+                    0.0, 18.0, 15.0, 0.0, 15.0, 55.5, 0.0, 39.0
+                </transform>
+                <transform type="NearLeft">
+                    0.0, 0.0, 111.0, 0.0, 111.0, 133.0, 0.0, 111.0,
+                    0.0, 0.0, 34.0, 41.0, 32.0, 95.0, 0.0, 113.0
+                </transform>
+                <transform type="NearRight">
+                    0.0, 0.0, 111.0, 0.0, 111.0, 133.0, 0.0, 133.0,
+                    0.0, 37.0, 31.0, 0.0, 31.0, 133.0, 0.0, 96.0
+                </transform>
+                <transform type="CloseLeft">
+                    0.0, 0.0, 56.0, 0.0, 56.0, 134.0, 0.0, 134.0,
+                    0.0, 1.0, 32.0, 40.0, 32.0, 172.0, 0.0, 210.5
+                </transform>
+                <transform type="CloseRight">
+                    0.0, 0.0, 56.0, 0.0, 56.0, 134.0, 0.0, 134.0,
+                    0.0, 39.0, 32.0, 0.0, 32.0, 211.5, 0.0, 174.0
+                </transform>
+            </transforms>
+            <outputs>
+                <output name="DC Standard" supportsMultiStory="false">
+                    <singleFileOutput outputHeight="368" outputWidth="576">
+                        <positions>
+                            <position type="FarFront" x="2" y="2" />
+                            <position type="FarFrontSecondary" x="132" y="2" />
+                            <position type="FarLeft" x="262" y="2" />
+                            <position type="FarRight" x="392" y="2" />
+                            <position type="NearFront" x="522" y="2" />
+                            <position type="NearLeft" x="2" y="146" />
+                            <position type="NearRight" x="132" y="146" />
+                            <position type="CloseFront" x="262" y="146" />
+                            <position type="CloseLeft" x="392" y="146" />
+                            <position type="CloseRight" x="522" y="146" />
+                        </positions>
+			            <transparentRegions>
+			            	<region position="FarFront" x="2" y="2" width="16" height="19" />
+			            	<region position="FarFrontSecondary" x="132" y="2" width="16" height="19" />
+			            	<region position="FarLeft" x="262" y="2" width="16" height="58" />
+			            	<region position="FarRight" x="392" y="2" width="16" height="58" />
+			            	<region position="NearFront" x="522" y="2" width="48" height="58" />
+			            	<region position="NearLeft" x="2" y="146" width="32" height="134" />
+			            	<region position="NearRight" x="132" y="146" width="32" height="134" />
+			            	<region position="CloseFront" x="262" y="146" width="112" height="134" />
+			            	<region position="CloseLeft" x="392" y="146" width="32" height="211" />
+			            	<region position="CloseRight" x="522" y="146" width="32" height="211" />
+			            </transparentRegions>                                                    
+                    </singleFileOutput>
+                </output>
+                <output name="DC Hyper" supportsMultiStory="true">
+                    <singleFileOutput outputHeight="375" outputWidth="1500">
+                        <positions>
+                            <position type="FarFront" x="1238" y="98" />
+                            <position type="FarFrontSecondary" x="1445" y="98" />
+                            <position type="FarLeft" x="1209" y="79" />
+                            <position type="FarRight" x="1267" y="79" />
+                            <position type="NearFront" x="749" y="79" />
+                            <position type="NearLeft" x="624" y="41" />
+                            <position type="NearRight" x="890" y="41" />
+                            <position type="CloseFront" x="257" y="41" />
+                            <position type="CloseLeft" x="132" y="2" />
+                            <position type="CloseRight" x="462" y="2" />
+                            <position type="NearFrontLeft" x="1424" y="79" />
+                            <position type="NearFrontRight" x="1052" y="79" />
+                            <position type="CloseFrontRight" x="499" y="41" />
+                            <position type="CloseFrontLeft" x="1015" y="41" />
+                        </positions>
+			            <transparentRegions>
+			            	<region position="CloseLeft" x="132" y="2" width="88" height="211" />
+			            	<region position="CloseFront" x="225" y="2" width="176" height="211" />
+			            	<region position="CloseRight" x="406" y="2" width="88" height="211" />
+			            	<region position="CloseFrontRight" x="499" y="2" width="88" height="211" />
+			            	<region position="NearLeft" x="592" y="2" width="88" height="211" />
+			            	<region position="NearFront" x="733" y="2" width="80" height="211" />
+			            	<region position="NearRight" x="866" y="2" width="88" height="211" />
+			            	<region position="CloseFrontLeft" x="959" y="2" width="88" height="211" />
+			            	<region position="NearFrontRight" x="1052" y="2" width="88" height="211" />
+			            	<region position="FarLeft" x="1193" y="2" width="40" height="211" />
+			            	<region position="FarFront" x="1238" y="2" width="16" height="211" />
+			            	<region position="FarRight" x="1259" y="2" width="40" height="211" />
+			            	<region position="NearFrontLeft" x="1352" y="2" width="88" height="211" />
+			            	<region position="FarFrontSecondary" x="1445" y="2" width="16" height="211" />
+			            </transparentRegions>
+                    </singleFileOutput>
+                </output>
+                <output name="Individual Files">
+                    <individualFileOutput />
+                </output>
+            </outputs>
+        </config>
+        <config resolution="800x600"  sortOrder="2">
+            <wallSizes>
+                <wallSize type="CloseFront" height="201" width="168" />
+                <wallSize type="CloseFrontSide" height="201" width="48" />
+                <wallSize type="NearFront" height="87" width="72" />
+                <wallSize type="NearFrontSide" height="87" width="24" />
+                <wallSize type="FarFront" height="29" width="24" />
+                <wallSize type="CloseSide" height="316" width="48" />
+                <wallSize type="NearSide" height="201" width="48" />
+                <wallSize type="FarSide" height="87" width="24" />
+            </wallSizes>
+            <transforms>
+                <transform type="FarLeft">
+                    0.0, 0.0, 71.0, 0.0, 71.0, 86.0, 0.0, 86.0,
+                    0.0, 0.0, 24.0, 29.0, 24.0, 57.0, 0.0, 86.0
+                </transform>
+                <transform type="FarRight">
+                    0.0, 0.0, 71.0, 0.0, 71.0, 86.0, 0.0, 86.0,
+                    0.0, 28.0, 23.0, 0.0, 23.0, 86.0, 0.0, 58.0
+                </transform>
+                <transform type="NearLeft">
+                    0.0, 0.0, 167.0, 0.0, 167.0, 200.0, 0.0, 200.0,
+                    0.0, 0.0, 47.0, 56.0, 47.0, 144.0, 0.0, 200.0
+                </transform>
+                <transform type="NearRight">
+                    0.0, 0.0, 167.0, 0.0, 167.0, 200.0, 0.0, 200.0,
+                    0.0, 56.0, 47.0, 0.0, 47.0, 200.0, 0.0, 144.0
+                </transform>
+                <transform type="CloseLeft">
+                    0.0, 0.0, 83.0, 0.0, 83.0, 200.0, 0.0, 200.0,
+                    0.0, 1.0, 47.0, 56.5, 47.0, 259.0, 0.0, 316.0
+                </transform>
+                <transform type="CloseRight">
+                    0.0, 0.0, 83.0, 0.0, 83.0, 200.0, 0.0, 200.0,
+                    0.0, 56.5, 47.0, 1.0, 48.0, 316.0, 0.0, 259.0
+                </transform>
+            </transforms>
+            <outputs>
+                <output name="DC Standard" supportsMultiStory="false">
+                    <singleFileOutput outputHeight="552" outputWidth="864">
+                        <positions>
+                            <position type="FarFront" x="3" y="3" />
+                            <position type="FarFrontSecondary" x="198" y="3" />
+                            <position type="FarLeft" x="393" y="3" />
+                            <position type="FarRight" x="588" y="3" />
+                            <position type="NearFront" x="783" y="3" />
+                            <position type="NearLeft" x="3" y="219" />
+                            <position type="NearRight" x="198" y="219" />
+                            <position type="CloseFront" x="393" y="219" />
+                            <position type="CloseLeft" x="588" y="219" />
+                            <position type="CloseRight" x="783" y="219" />
+                        </positions>
+			            <transparentRegions>
+			            	<region position="FarFront" x="3" y="3" width="24" height="29" />
+			            	<region position="FarFrontSecondary" x="198" y="3" width="24" height="29" />
+			            	<region position="FarLeft" x="393" y="3" width="24" height="87" />
+			            	<region position="FarRight" x="588" y="3" width="24" height="87" />
+			            	<region position="NearFront" x="783" y="3" width="72" height="87" />			            	
+			            	<region position="NearLeft" x="3" y="219" width="48" height="201" />
+			            	<region position="NearRight" x="198" y="219" width="48" height="201" />
+			            	<region position="CloseFront" x="393" y="219" width="168" height="201" />
+			            	<region position="CloseLeft" x="588" y="219" width="48" height="316" />
+			            	<region position="CloseRight" x="783" y="219" width="48" height="316" />
+			            </transparentRegions>                                                                            
+                    </singleFileOutput>
+                </output>
+                <output name="DC Hyper" supportsMultiStory="true">
+                    <singleFileOutput outputHeight="563" outputWidth="2250">
+                        <positions>
+                            <position type="FarFront" x="1857" y="147" />
+                            <position type="FarFrontSecondary" x="2168" y="147" />
+                            <position type="FarLeft" x="1814" y="118" />
+                            <position type="FarRight" x="1901" y="118" />
+
+                            <position type="NearFront" x="1124" y="118" />
+                            <position type="NearLeft" x="936" y="61" />
+                            <position type="NearRight" x="1335" y="61" />
+
+                            <position type="CloseFront" x="386" y="61" />
+                            <position type="CloseLeft" x="198" y="3" />
+                            <position type="CloseRight" x="693" y="3" />
+
+                            <position type="NearFrontLeft" x="2136" y="118" />
+                            <position type="NearFrontRight" x="1578" y="118" />
+                            <position type="CloseFrontRight" x="749" y="61" />
+                            <position type="CloseFrontLeft" x="1523" y="61" />
+                        </positions>
+                        
+			            <transparentRegions>
+			            	<region position="CloseLeft" x="198" y="3" width="132" height="317" />
+			            	<region position="CloseFront" x="338" y="3" width="264" height="317" />
+			            	<region position="CloseRight" x="609" y="3" width="132" height="317" />
+			            	<region position="CloseFrontRight" x="749" y="3" width="132" height="317" />
+			            	<region position="NearLeft" x="888" y="3" width="132" height="317" />
+			            	<region position="NearFront" x="1100" y="3" width="120" height="317" />
+			            	<region position="NearRight" x="1299" y="3" width="132" height="317" />
+			            	<region position="CloseFrontLeft" x="1439" y="3" width="132" height="317" />
+			            	<region position="NearFrontRight" x="1578" y="3" width="132" height="317" />
+			            	<region position="FarLeft" x="1790" y="3" width="60" height="317" />
+			            	<region position="FarFront" x="1857" y="3" width="24" height="317" />
+			            	<region position="FarRight" x="1889" y="3" width="60" height="317" />
+			            	<region position="NearFrontLeft" x="2028" y="3" width="132" height="317" />
+			            	<region position="FarFrontSecondary" x="2168" y="3" width="24" height="317" />
+			            </transparentRegions>
+                    </singleFileOutput>
+                </output>
+                <output name="Individual Files">
+                    <individualFileOutput />
+                </output>
+            </outputs>
+        </config>
+        <config resolution="1024x768" sortOrder="3">
+            <wallSizes>
+                <wallSize type="CloseFront" height="268" width="224" />
+                <wallSize type="CloseFrontSide" height="268" width="64" />
+                <wallSize type="NearFront" height="112" width="96" />
+                <wallSize type="NearFrontSide" height="112" width="32" />
+                <wallSize type="FarFront" height="38" width="32" />
+                <wallSize type="CloseSide" height="422" width="64" />
+                <wallSize type="NearSide" height="268" width="64" />
+                <wallSize type="FarSide" height="116" width="32" />
+            </wallSizes>
+            <transforms>
+                <transform type="FarLeft">
+                    0.0, 0.0, 95.0, 0.0, 95.0, 115.0, 0.0, 115.0,
+                    0.0, 0.0, 31.0, 36.0, 31.0, 77.0, 0.0, 115.0
+                </transform>
+                <transform type="FarRight">
+                    0.0, 0.0, 95.0, 0.0, 95.0, 115.0, 0.0, 115.0,
+                    0.0, 36.0, 31.0, 0.0, 31.0, 114.0, 0.0, 77.0
+                </transform>
+                <transform type="NearLeft">
+                    0.0, 0.0, 223.0, 0.0, 223.0, 267.0, 0.0, 267.0,
+                    0.0, 0.0, 63.0, 76.5, 63.0, 191.0, 0.0, 267.0
+                </transform>
+                <transform type="NearRight">
+                    0.0, 0.0, 223.0, 0.0, 223.0, 267.0, 0.0, 267.0,
+                    0.0, 76.5, 63.0, 0.0, 63.0, 267.0, 0.0, 191.0
+                </transform>
+                <transform type="CloseLeft">
+                    0.0, 0.0, 111.0, 0.0, 111.0, 267.0, 0.0, 267.0,
+                    0.0, 1.0, 63.0, 76.0, 63.0, 344.0, 0.0, 420.0
+                </transform>
+                <transform type="CloseRight">
+                    0.0, 0.0, 111.0, 0.0, 111.0, 267.0, 0.0, 267.0,
+                    0.0, 76.5, 63.0, 1.0, 63.0, 420.0, 0.0, 344.0
+                </transform>
+            </transforms>
+            <outputs>
+                <output name="DC Standard" supportsMultiStory="false">
+                    <singleFileOutput outputHeight="736" outputWidth="1152">
+                        <positions>
+                            <position type="FarFront" x="4" y="4" />
+                            <position type="FarFrontSecondary" x="264" y="4" />
+                            <position type="FarLeft" x="524" y="4" />
+                            <position type="FarRight" x="784" y="4" />
+                            <position type="NearFront" x="1044" y="4" />
+                            <position type="NearLeft" x="4" y="292" />
+                            <position type="NearRight" x="264" y="292" />
+                            <position type="CloseFront" x="524" y="292" />
+                            <position type="CloseLeft" x="784" y="292" />
+                            <position type="CloseRight" x="1044" y="292" />
+                        </positions>
+			            <transparentRegions>
+			            	<region position="FarFront" x="4" y="4" width="32" height="38" />
+			            	<region position="FarFrontSecondary" x="264" y="4" width="32" height="38" />
+			            	<region position="FarLeft" x="524" y="4" width="32" height="116" />
+			            	<region position="FarRight" x="784" y="4" width="32" height="116" />
+			            	<region position="NearFront" x="1044" y="4" width="96" height="116" />
+			            	<region position="NearLeft" x="4" y="292" width="64" height="268" />
+			            	<region position="NearRight" x="264" y="292" width="64" height="268" />
+			            	<region position="CloseFront" x="524" y="292" width="224" height="268" />
+			            	<region position="CloseLeft" x="784" y="292" width="64" height="422" />
+			            	<region position="CloseRight" x="1044" y="292" width="64" height="422" />
+			            </transparentRegions>		                                    
+                    </singleFileOutput>
+                </output>
+                <output name="DC Hyper" supportsMultiStory="true">
+                    <singleFileOutput outputHeight="750" outputWidth="3000">
+                        <positions>
+                            <position type="FarFront" x="2476" y="196" />
+                            <position type="FarFrontSecondary" x="2890" y="196" />
+                            <position type="FarLeft" x="2418" y="159" />
+                            <position type="FarRight" x="2534" y="159" />
+                            <position type="NearFront" x="1498" y="159" />
+                            <position type="NearLeft" x="1248" y="81" />
+                            <position type="NearRight" x="1780" y="81" />
+                            <position type="NearFrontLeft" x="2848" y="159" />
+                            <position type="NearFrontRight" x="2104" y="159" />
+                            <position type="CloseFront" x="514" y="81" />
+                            <position type="CloseLeft" x="264" y="4" />
+                            <position type="CloseRight" x="924" y="4" />
+                            <position type="CloseFrontRight" x="998" y="81" />
+                            <position type="CloseFrontLeft" x="2030" y="81" />
+                        </positions>
+			            <transparentRegions>
+			            	<region position="CloseLeft" x="264" y="4" width="176" height="422" />
+			            	<region position="CloseFront" x="450" y="4" width="352" height="422" />
+			            	<region position="CloseRight" x="812" y="4" width="176" height="422" />
+			            	<region position="CloseFrontRight" x="998" y="4" width="176" height="422" />
+			            	<region position="NearLeft" x="1184" y="4" width="176" height="422" />
+			            	<region position="NearFront" x="1466" y="4" width="160" height="422" />
+			            	<region position="NearRight" x="1732" y="4" width="176" height="422" />
+			            	<region position="CloseFrontLeft" x="1918" y="4" width="176" height="422" />
+			            	<region position="NearFrontRight" x="2104" y="4" width="176" height="422" />
+			            	<region position="FarLeft" x="2386" y="4" width="80" height="422" />
+			            	<region position="FarFront" x="2476" y="4" width="32" height="422" />
+			            	<region position="FarRight" x="2518" y="4" width="80" height="422" />
+			            	<region position="NearFrontLeft" x="2704" y="4" width="176" height="422" />
+			            	<region position="FarFrontSecondary" x="2890" y="4" width="32" height="422" />
+			            </transparentRegions>                          
+                    </singleFileOutput>
+                </output>
+                <output name="Individual Files">
+                    <individualFileOutput />
+                </output>
+            </outputs>
+        </config>
+        <config resolution="640x480 Square"  sortOrder="4">
+            <wallSizes>
+                <wallSize type="CloseFront" height="168" width="168" />
+                <wallSize type="CloseFrontSide" height="168" width="48" />
+                <wallSize type="NearFront" height="72" width="72" />
+                <wallSize type="NearFrontSide" height="72" width="24" />
+                <wallSize type="FarFront" height="24" width="24" />
+                <wallSize type="CloseSide" height="264" width="48" />
+                <wallSize type="NearSide" height="168" width="48" />
+                <wallSize type="FarSide" height="72" width="24" />
+            </wallSizes>
+            <transforms>
+                <transform type="FarLeft">
+                    0.0, 0.0, 72.0, 0.0, 72.0, 72.0, 0.0, 72.0,
+                    0.0, 0.0, 24.0, 24.0, 24.0, 48.0, 0.0, 72.0
+                </transform>
+                <transform type="FarRight">
+                    0.0, 0.0, 72.0, 0.0, 72.0, 72.0, 0.0, 72.0,
+                    0.0, 24.0, 24.0, 0.0, 24.0, 72.0, 0.0, 48.0
+                </transform>
+                <transform type="NearLeft">
+                    0.0, 0.0, 168.0, 0.0, 168.0, 168.0, 0.0, 168.0,
+                    0.0, 0.0, 48.0, 48.0, 48.0, 120.0, 0.0, 168.0
+                </transform>
+                <transform type="NearRight">
+                    0.0, 0.0, 168.0, 0.0, 168.0, 168.0, 0.0, 168.0,
+                    0.0, 47.0, 47.5, 0.0, 48.0, 168.0, 0.0, 121.0
+                </transform>
+                <transform type="CloseLeft">
+                    0.0, 0.0, 84.0, 0.0, 84.0, 168.0, 0.0, 168.0,
+                    0.0, 1.0, 48.0, 48.0, 48.0, 216.0, 0.0, 264.0
+                </transform>
+                <transform type="CloseRight">
+                    0.0, 0.0, 84.0, 0.0, 84.0, 168.0, 0.0, 168.0,
+                    0.0, 48.0, 48.0, 0.0, 48.0, 264.0, 0.0, 216.5
+                </transform>
+            </transforms>
+            <outputs>
+                <output name="DC Standard" supportsMultiStory="false">
+                    <singleFileOutput outputHeight="600" outputWidth="960">
+                        <positions>
+                            <position type="FarFront" x="3" y="3" />
+                            <position type="FarFrontSecondary" x="198" y="3" />
+                            <position type="FarLeft" x="393" y="3" />
+                            <position type="FarRight" x="588" y="3" />
+                            <position type="NearFront" x="783" y="3" />
+                            <position type="NearLeft" x="3" y="183" />
+                            <position type="NearRight" x="198" y="183" />
+                            <position type="CloseFront" x="393" y="183" />
+                            <position type="CloseLeft" x="588" y="183" />
+                            <position type="CloseRight" x="783" y="183" />                            
+                        </positions>
+			            <transparentRegions>
+			            	<region position="FarFront" x="3" y="3" width="24" height="24" />
+			            	<region position="FarFrontSecondary" x="198" y="3" width="24" height="24" />
+			            	<region position="FarLeft" x="393" y="3" width="24" height="72" />
+			            	<region position="FarRight" x="588" y="3" width="24" height="72" />
+			            	<region position="NearFront" x="783" y="3" width="72" height="72" />
+			            	
+			            	<region position="NearLeft" x="3" y="183" width="48" height="168" />
+			            	<region position="NearRight" x="198" y="183" width="48" height="168" />
+			            	<region position="CloseFront" x="393" y="183" width="168" height="168" />
+			            	<region position="CloseLeft" x="588" y="183" width="48" height="264" />
+			            	<region position="CloseRight" x="783" y="183" width="48" height="264" />
+			            </transparentRegions>
+                    </singleFileOutput>
+                </output>
+                <output name="DC Hyper" supportsMultiStory="true">
+                    <singleFileOutput outputHeight="352" outputWidth="2048">
+                        <positions>
+                            <position type="CloseLeft" x="3" y="3" />
+                            <position type="CloseFront" x="191" y="51" />
+                            <position type="CloseRight" x="498" y="3" />
+                            <position type="CloseFrontRight" x="554" y="51" />
+                            <position type="NearLeft" x="741" y="51" />
+                            <position type="NearFront" x="929" y="99" />
+                            <position type="NearRight" x="1140" y="51" />
+                            <position type="CloseFrontLeft" x="1328" y="51" />
+                            <position type="NearFrontRight" x="1383" y="99" />
+                            <position type="FarLeft" x="1619" y="99" />
+                            <position type="FarFront" x="1662" y="123" />
+                            <position type="FarRight" x="1706" y="99" />
+                            <position type="NearFrontLeft" x="1941" y="99" />
+                            <position type="FarFrontSecondary" x="1973" y="123" />
+                        </positions>
+			            <transparentRegions>
+			            	<region position="CloseLeft" x="3" y="2" width="132" height="264" />
+			            	<region position="CloseFront" x="143" y="2" width="264" height="264" />
+			            	<region position="CloseRight" x="414" y="2" width="132" height="264" />
+			            	<region position="CloseFrontRight" x="554" y="2" width="132" height="264" />
+			            	<region position="NearLeft" x="693" y="2" width="132" height="264" />
+			            	<region position="NearFront" x="905" y="2" width="120" height="264" />
+			            	<region position="NearRight" x="1104" y="2" width="132" height="264" />
+			            	<region position="CloseFrontLeft" x="1244" y="2" width="132" height="264" />
+			            	<region position="NearFrontRight" x="1383" y="2" width="132" height="264" />
+			            	<region position="FarLeft" x="1595" y="2" width="60" height="264" />
+			            	<region position="FarFront" x="1662" y="2" width="24" height="264" />
+			            	<region position="FarRight" x="1694" y="2" width="60" height="264" />
+			            	<region position="NearFrontLeft" x="1833" y="2" width="132" height="264" />
+			            	<region position="FarFrontSecondary" x="1973" y="2" width="24" height="264" />
+			            </transparentRegions>
+                    </singleFileOutput>
+                </output>
+                <output name="Individual Files">
+                    <individualFileOutput />
+                </output>
+            </outputs>
+        </config>
+        <config resolution="800x600 Square" sortOrder="5">
+            <wallSizes>
+                <wallSize type="CloseFront" height="224" width="224" />
+                <wallSize type="CloseFrontSide" height="224" width="64" />
+                <wallSize type="NearFront" height="96" width="96" />
+                <wallSize type="NearFrontSide" height="96" width="32" />
+                <wallSize type="FarFront" height="32" width="32" />
+                <wallSize type="CloseSide" height="352" width="64" />
+                <wallSize type="NearSide" height="224" width="64" />
+                <wallSize type="FarSide" height="96" width="32" />
+            </wallSizes>
+            <transforms>
+                <transform type="FarLeft">
+                    0.0, 0.0, 96.0, 0.0, 96.0, 96.0, 0.0, 96.0,
+					0.0, 0.0, 32.0, 32.0, 32.0, 64.0, 0.0, 96.0
+                </transform>
+                <transform type="FarRight">
+                    0.0, 0.0, 96.0, 0.0, 96.0, 96.0, 0.0, 96.0,
+                    0.0, 31.0, 32.0, 0.0, 32.0, 96.0, 0.0, 64.5
+                </transform>
+                <transform type="NearLeft">
+                    0.0, 0.0, 224.0, 0.0, 224.0, 224.0, 0.0, 224.0,
+					0.0, 0.0, 64.0, 64.0, 64.0, 159.5, 0.0, 224.0
+				</transform>
+				<transform type="NearRight">
+                    0.0, 0.0, 224.0, 0.0, 224.0, 224.0, 0.0, 224.0,
+					0.0, 63.0, 64.0, 0.0, 64.0, 225.0, 0.0, 160.0
+				</transform>
+				<transform type="CloseLeft">
+                    0.0, 0.0, 112.0, 0.0, 112.0, 224.0, 0.0, 224.0,
+                    0.0, 1.0, 64.0, 64.0, 64.0, 288.0, 0.0, 352.0
+                </transform>
+                <transform type="CloseRight">
+                    0.0, 0.0, 112.0, 0.0, 112.0, 224.0, 0.0, 224.0,
+                    0.0, 64.0, 64.0, 0.0, 64.0, 352.0, 0.0, 288.5
+                </transform>
+            </transforms>
+            <outputs>
+                <output name="DC Standard" supportsMultiStory="false">
+                    <singleFileOutput outputHeight="798" outputWidth="1277">
+                        <positions>
+                            <position type="FarFront" x="4" y="4" />
+                            <position type="FarFrontSecondary" x="264" y="4" />
+                            <position type="FarLeft" x="523" y="4" />
+                            <position type="FarRight" x="783" y="4" />
+                            <position type="NearFront" x="1042" y="4" />
+                            <position type="NearLeft" x="4" y="244" />
+                            <position type="NearRight" x="264" y="244" />
+                            <position type="CloseFront" x="523" y="244" />
+                            <position type="CloseLeft" x="783" y="244" />
+                            <position type="CloseRight" x="1042" y="244" />
+                        </positions>
+			            <transparentRegions>
+			            	<region position="FarFront" x="4" y="4" width="32" height="32" />
+			            	<region position="FarFrontSecondary" x="264" y="4" width="32" height="32" />
+			            	<region position="FarLeft" x="523" y="4" width="32" height="96" />
+			            	<region position="FarRight" x="783" y="4" width="32" height="96" />
+			            	<region position="NearFront" x="1042" y="4" width="96" height="96" />
+			            	
+			            	<region position="NearLeft" x="4" y="244" width="64" height="224" />
+			            	<region position="NearRight" x="264" y="244" width="64" height="224" />
+			            	<region position="CloseFront" x="523" y="244" width="224" height="224" />
+			            	<region position="CloseLeft" x="783" y="244" width="64" height="352" />
+			            	<region position="CloseRight" x="1042" y="244" width="64" height="352" />
+			            </transparentRegions>
+                    </singleFileOutput>
+                </output>
+                <output name="DC Hyper" supportsMultiStory="true">
+                    <singleFileOutput outputHeight="468" outputWidth="2724">
+                        <positions>
+                            <position type="CloseLeft" x="4" y="4" />
+                            <position type="CloseFront" x="254" y="68" />
+                            <position type="CloseRight" x="664" y="4" />
+                            <position type="CloseFrontRight" x="738" y="68" />
+                            <position type="NearLeft" x="988" y="68" />
+                            <position type="NearFront" x="1238" y="132" />
+                            <position type="NearRight" x="1520" y="68" />
+                            <position type="CloseFrontLeft" x="1770" y="68" />
+                            <position type="NearFrontRight" x="1844" y="132" />
+                            <position type="FarLeft" x="2158" y="132" />
+                            <position type="FarFront" x="2216" y="164" />
+                            <position type="FarRight" x="2274" y="132" />
+                            <position type="NearFrontLeft" x="2588" y="132" />
+                            <position type="FarFrontSecondary" x="2630" y="164" />
+                        </positions>
+			            <transparentRegions>
+			            	<region position="CloseLeft" x="4" y="4" width="176" height="352" />
+			            	<region position="CloseFront" x="190" y="4" width="352" height="352" />
+			            	<region position="CloseRight" x="552" y="4" width="176" height="352" />
+			            	<region position="CloseFrontRight" x="738" y="4" width="176" height="352" />
+			            	<region position="NearLeft" x="924" y="4" width="176" height="352" />
+			            	<region position="NearFront" x="1206" y="4" width="160" height="352" />
+			            	<region position="NearRight" x="1472" y="4" width="176" height="352" />
+			            	<region position="CloseFrontLeft" x="1658" y="4" width="176" height="352" />
+			            	<region position="NearFrontRight" x="1844" y="4" width="176" height="352" />
+			            	<region position="FarLeft" x="2126" y="4" width="80" height="352" />
+			            	<region position="FarFront" x="2216" y="4" width="32" height="352" />
+			            	<region position="FarRight" x="2258" y="4" width="80" height="352" />
+			            	<region position="NearFrontLeft" x="2444" y="4" width="176" height="352" />
+			            	<region position="FarFrontSecondary" x="2630" y="4" width="32" height="352" />
+			            </transparentRegions>          
+                    </singleFileOutput>
+                </output>
+                <output name="Individual Files">
+                    <individualFileOutput />
+                </output>
+            </outputs>
+        </config>
+        <config resolution="1024x768 Square" sortOrder="6">
+            <wallSizes>
+                <wallSize type="CloseFront" height="336" width="336" />
+                <wallSize type="CloseFrontSide" height="336" width="96" />
+                <wallSize type="NearFront" height="144" width="144" />
+                <wallSize type="NearFrontSide" height="144" width="48" />
+                <wallSize type="FarFront" height="48" width="48" />
+                <wallSize type="CloseSide" height="528" width="96" />
+                <wallSize type="NearSide" height="336" width="96" />
+                <wallSize type="FarSide" height="144" width="48" />
+            </wallSizes>
+            <transforms>
+                <transform type="FarLeft">
+                    0.0, 0.0, 144.0, 0.0, 144.0, 144.0, 0.0, 144.0,
+                    0.0, 0.0, 48.0, 48.0, 48.0, 96.0, 0.0, 144.0
+                </transform>
+                <transform type="FarRight">
+                    0.0, 0.0, 144.0, 0.0, 144.0, 144.0, 0.0, 144.0,
+                    0.0, 47.0, 48.0, 0.0, 48.0, 144.0, 0.0, 96.5
+                </transform>
+                <transform type="NearLeft">
+                    0.0, 0.0, 336.0, 0.0, 336.0, 336.0, 0.0, 336.0,
+                    0.0, 0.0, 96.0, 96.0, 96.0, 240.0, 0.0, 336.0
+                </transform>
+                <transform type="NearRight">
+                    0.0, 0.0, 336.0, 0.0, 336.0, 336.0, 0.0, 336.0,
+                    0.0, 95.0, 96.0, 0.0, 96.0, 336.0, 0.0, 240.5
+                </transform>
+                <transform type="CloseLeft">
+                    0.0, 0.0, 168.0, 0.0, 168.0, 336.0, 0.0, 336.0,
+                    0.0, 1.0, 96.0, 96.0, 96.0, 432.0, 0.0, 528.0
+                </transform>
+                <transform type="CloseRight">
+                    0.0, 0.0, 168.0, 0.0, 168.0, 336.0, 0.0, 336.0,
+                    0.0, 96.0, 96.0, 0.0, 96.0, 528.0, 0.0, 433.0
+                </transform>
+            </transforms>
+            <outputs>
+                <output name="DC Standard" supportsMultiStory="false">
+                    <singleFileOutput outputHeight="1200" outputWidth="1920">
+                        <positions>
+                            <position type="FarFront" x="6" y="6" />
+                            <position type="FarFrontSecondary" x="396" y="6" />
+                            <position type="FarLeft" x="786" y="6" />
+                            <position type="FarRight" x="1176" y="6" />
+                            <position type="NearFront" x="1566" y="6" />
+                            <position type="NearLeft" x="6" y="366" />
+                            <position type="NearRight" x="396" y="366" />
+                            <position type="CloseFront" x="786" y="366" />
+                            <position type="CloseLeft" x="1176" y="366" />
+                            <position type="CloseRight" x="1566" y="366" />
+                        </positions>
+			            <transparentRegions>
+			            	<region position="FarFront" x="6" y="6" width="48" height="48" />
+			            	<region position="FarFrontSecondary" x="396" y="6" width="48" height="48" />
+			            	<region position="FarLeft" x="786" y="6" width="48" height="144" />
+			            	<region position="FarRight" x="1176" y="6" width="48" height="144" />
+			            	<region position="NearFront" x="1566" y="6" width="144" height="144" />
+			            	
+			            	<region position="NearLeft" x="6" y="366" width="96" height="336" />
+			            	<region position="NearRight" x="396" y="366" width="96" height="336" />
+			            	<region position="CloseFront" x="786" y="366" width="336" height="336" />
+			            	<region position="CloseLeft" x="1176" y="366" width="96" height="528" />
+			            	<region position="CloseRight" x="1566" y="366" width="96" height="528" />
+			            </transparentRegions>                          
+                    </singleFileOutput>
+                </output>
+                <output name="DC Hyper" supportsMultiStory="true">
+                    <singleFileOutput outputHeight="608" outputWidth="4000">
+                        <positions>
+                            <position type="CloseLeft" x="6" y="6" />
+                            <position type="CloseFront" x="382" y="102" />
+                            <position type="CloseRight" x="996" y="6" />
+                            <position type="CloseFrontRight" x="1108" y="102" />
+                            <position type="NearLeft" x="1482" y="102" />
+                            <position type="NearFront" x="1858" y="198" />
+                            <position type="NearRight" x="2280" y="102" />
+                            <position type="CloseFrontLeft" x="2656" y="102" />
+                            <position type="NearFrontRight" x="2766" y="198" />
+                            <position type="FarLeft" x="3238" y="198" />
+                            <position type="FarFront" x="3324" y="246" />
+                            <position type="FarRight" x="3412" y="198" />
+                            <position type="NearFrontLeft" x="3882" y="198" />
+                            <position type="FarFrontSecondary" x="3946" y="246" />
+                        </positions>
+			            <transparentRegions>
+			            	<region position="CloseLeft" x="6" y="6" width="264" height="528" />
+			            	<region position="CloseFront" x="286" y="6" width="528" height="528" />
+			            	<region position="CloseRight" x="828" y="6" width="264" height="528" />
+			            	<region position="CloseFrontRight" x="1108" y="6" width="264" height="528" />
+			            	<region position="NearLeft" x="1386" y="6" width="264" height="528" />
+			            	<region position="NearFront" x="1810" y="6" width="240" height="528" />
+			            	<region position="NearRight" x="2208" y="6" width="264" height="528" />
+			            	<region position="CloseFrontLeft" x="2488" y="6" width="264" height="528" />
+			            	<region position="NearFrontRight" x="2766" y="6" width="264" height="528" />
+			            	<region position="FarLeft" x="3190" y="6" width="120" height="528" />
+			            	<region position="FarFront" x="3324" y="6" width="48" height="528" />
+			            	<region position="FarRight" x="3388" y="6" width="120" height="528" />
+			            	<region position="NearFrontLeft" x="3666" y="6" width="264" height="528" />
+			            	<region position="FarFrontSecondary" x="3946" y="6" width="48" height="528" />
+			            </transparentRegions>                          
+                    </singleFileOutput>
+                </output>
+                <output name="Individual Files">
+                    <individualFileOutput />
+                </output>
+            </outputs>
+        </config>
+    </configs>
+</wallGeneratorConfig>
